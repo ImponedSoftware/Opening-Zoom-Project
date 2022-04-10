@@ -15,7 +15,7 @@ from tkinter import *
 
 window = Tk()
 # arg1(name of project), arg2(Tkinter object), arg3(index pos)
-interface = gui.GUI("Smartass", window, 0)
+interface = gui.GUI("Zoom Join Automation Software", window, 0)
 interface.readData()
 interface.createMenu()
 window.mainloop()
